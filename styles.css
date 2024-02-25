@@ -1,0 +1,40 @@
+* {
+    list-style-type: none;
+}
+
+header {
+    background-image: url("images/istockphoto-153499035-612x612.jpg");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+#my-work {
+    display: flex;
+
+}
+
+#my-work img {
+    margin: 0 20px;
+}
+
+nav {
+    display: flex;
+    float: right;
+    margin-top: 50px;
+
+}
+
+nav a {
+    margin: 10px 10px;
+
+}
